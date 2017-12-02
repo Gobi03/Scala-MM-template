@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rm *.class
+rm -f *.class
 
 fsc CommonPackage.scala
 fsc Entities.scala

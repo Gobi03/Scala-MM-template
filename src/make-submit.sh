@@ -2,7 +2,7 @@
 
 file=Submit.scala
 
-rm ${file}
+rm -f ${file}
 touch ${file}
 
 # generate file
